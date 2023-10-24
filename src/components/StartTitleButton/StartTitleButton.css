@@ -1,0 +1,29 @@
+.StartTitleButton{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    color: var(--Text_Color);
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.StartTitleButton p{
+    margin: 10px 0;
+}
+.StartTitleButton img{
+    margin-top: 20px;
+    height: 50px;
+    animation: ButtonEnter 2s ease-in-out infinite;
+}
+
+@keyframes ButtonEnter {
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(10px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}

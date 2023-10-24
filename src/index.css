@@ -1,0 +1,13 @@
+:root{
+    --Text_Color: #fff;
+}
+@font-face {
+    font-family: 'Arcade';
+    src: url("./assets/font/RegularArcade.ttf");
+}
+*{
+    font-family: 'Arcade', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
