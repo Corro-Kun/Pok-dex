@@ -1,7 +1,7 @@
 .Ficha{
     display: flex;
-    width: 280px;
-    height: 320px;
+    width: 200px;
+    height: 240px;
     backdrop-filter: blur(50px);
     border-radius: 10px;
     border: 2px solid rgba(255, 255, 255, 0.2);
@@ -11,10 +11,12 @@
     overflow: hidden;
     transition: all 0.3s ease-in-out;
     cursor: pointer;
+
 }
 .Ficha:hover{
     border: 2px solid rgba(255, 255, 255, 0.5);
-    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+    transform: scale(1.1);
 }
 .Ficha-Title{
     display: flex;

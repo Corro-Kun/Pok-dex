@@ -1,18 +1,19 @@
 import "./Ficha.css";
+import { useNavigate } from "react-router-dom";
 
-function Ficha({name}){
+function Ficha({name, id, image, type}){
+    const navigate = useNavigate();
     return(
-        <div className="Ficha" >
+        <div className="Ficha" onClick={()=> navigate("/character/"+id)} >
             <div className="Ficha-Title" >
-                <h3>N°1</h3>
-                <h2>{name}</h2>
-                <h3>---</h3>
+                <h3>N°{id}</h3>
+                <h3>{name}</h3>
             </div>
             <div className="Ficha-Img" >
-                <img src="https://www.pngitem.com/pimgs/m/528-5285536_charmander-pixel-art-hd-png-download.png" alt="" loading="lazy" />
+                <img src={image} alt="pokemon" loading="lazy" />
             </div>
             <div className="Ficha-Tipo" >
-                <h3>Tipo</h3>
+                <h3>Tipo: {type}</h3>
             </div>
         </div>
     );

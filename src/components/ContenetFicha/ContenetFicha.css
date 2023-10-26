@@ -1,7 +1,61 @@
+.Contenet-Bar{
+    padding: 0 52px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Contenet-Bar input{
+    padding: 0 10px;
+    height: 30px;
+    width: 40%;
+    outline: none;
+    font-size: 1em;
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 5px;
+    text-align: center;
+}
+.Logo-Bar{
+    display: flex;
+    height: 50px;
+    width: 50px;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    cursor: pointer;
+}
+.Logo-Bar img{
+    height: 50px;
+}
 .ContenetFicha{
     display: flex;
-    padding: 20px 20px 20px 20px;
+    height: 89vh;
+    padding: 32px 50px 32px 50px;
     width: 100%;
     flex-wrap: wrap;
     gap: 30px;
+    overflow: hidden;
+}
+.Contenet-Page{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Contenet-Page div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Contenet-Page button{
+    margin: 0 20px;
+    padding: 10px 12px 10px 12px;
+    cursor: pointer;
+    background-color: #fff;
+    border-radius: 5px;
+    border: none;
+    transition: all 0.3s ease-in-out;
+}
+.Contenet-Page button:hover{
+    background-color: #000;
+    color: #fff;
 }

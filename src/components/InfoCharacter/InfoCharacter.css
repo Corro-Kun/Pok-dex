@@ -1,0 +1,76 @@
+.InfoCharacter-Render{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+.InfoCharacter-Main{
+    width: 50%;
+    height: 80%;
+    background: transparent;
+    backdrop-filter: blur(30px);
+    border: 2px solid #fff;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.InfoCharacter-Name{
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.InfoCharacter-Name div{
+    width: 30%;
+}
+.InfoCharacter-Name div:nth-child(2){
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.InfoCharacter-Name div:nth-child(3){
+    display: flex;
+    cursor: pointer;
+    justify-content: right;
+}
+.InfoCharacter-image{
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.InfoCharacter-Data{
+    display: flex;
+    height: 28%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.InfoCharacter-Data h2{
+    margin: 10px;
+}
+.Render-Data-InfoCharacter{
+    display: flex;
+    height: 80%;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+.Render-Data-InfoCharacter p{
+    margin-bottom: 5px;
+}
+.Render-Data-InfoCharacter div:nth-child(1){
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.Render-Data-InfoCharacter div:nth-child(2){
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-left: 1px solid #6e6e6e;
+}

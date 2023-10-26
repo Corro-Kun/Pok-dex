@@ -18,7 +18,7 @@ function StartTitleButton(){
     return(
         <div className="StartTitleButton" >
             <h1>Pokédex</h1>
-            <p>Presiona enter para continuar</p>
+            <p>press enter to continue</p>
             <img src={Enter} alt="" loading="lazy" />
         </div>
     );
