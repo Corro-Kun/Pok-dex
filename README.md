@@ -10,13 +10,13 @@
         imagenes de la pagina:
         <br>
         <br>
-        <img src="public/present 1" alt="imagen">
+        <img src="public/present 1.png" alt="imagen">
         <br>
         <br>
-        <img src="public/present 2" alt="imagen">
+        <img src="public/present 2.png" alt="imagen">
         <br>
         <br>
-	<img src="public/present 3" alt="imagen">
+	<img src="public/present 3.png" alt="imagen">
         <br>
         <br>
         ~ Corro-Kun ~
